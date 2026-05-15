@@ -93,11 +93,3 @@
 
 // console.log(arr);
 // console.log(arr1);
-
-let button = document.querySelector("#button");
-let elem = document.querySelector('p');
-let [input1, input2] = document.querySelectorAll('input');
- button.addEventListener('click', function() {
-        elem.textContent = +input1.value + +input2.value
-    })
-
